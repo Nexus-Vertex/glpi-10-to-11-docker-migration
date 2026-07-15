@@ -15,22 +15,6 @@ This project was carried out during a technical internship. The company was alre
 
 ---
 
-##  Architecture
-
-| Container | Image | Role | Port |
-|-----------|-------|------|------|
-| glpi-db | mariadb:10.6 | Database engine | internal |
-| glpi-app | diouxx/glpi | GLPI 11 application | 8080 → 80 |
-| glpi-phpmyadmin | phpmyadmin/phpmyadmin | Database admin UI | 8081 → 80 |
-
-```
-┌──────────────┐      ┌──────────────┐      ┌──────────────────┐
-│   glpi-app   │──────│   glpi-db    │──────│  glpi-phpmyadmin │
-│  (GLPI 11)   │      │  (MariaDB)   │      │                   │
-│ :8080 → :80  │      │              │      │   :8081 → :80     │
-└──────────────┘      └──────────────┘      └──────────────────┘
-```
-
 ---
 
 ## ⚙️ Features
@@ -47,7 +31,7 @@ This project was carried out during a technical internship. The company was alre
 
 ---
 
-## 🛠️ Technologies
+##  Technologies
 
 | Technology | Usage |
 |------------|-------|
@@ -70,18 +54,6 @@ glpi-10-to-11-docker-migration/
 ├── README.md
 └── MIT License
 ```
-
----
-
-## ⚠️ Security Notice
-
-This repository does **not** include any database dump, backup file, or screenshot containing company data.
-
-- All `*.sql` files are excluded via `.gitignore`
-- Only the infrastructure code (`docker-compose.yml`) and migration methodology are shared publicly
-- No credentials, IPs, or internal records appear anywhere in this repository
-
----
 
 ## 🚀 Getting Started
 
