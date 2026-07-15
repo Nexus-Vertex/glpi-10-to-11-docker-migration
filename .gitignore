@@ -1,0 +1,9 @@
+# Database dumps (contain real company data — never publish)
+*.sql
+
+# Docker temporary files
+*.log
+
+# Windows system files
+Thumbs.db
+desktop.ini
