@@ -15,8 +15,6 @@ This project was carried out during a technical internship. The company was alre
 
 ---
 
----
-
 ## ⚙️ Features
 
 ### Infrastructure
