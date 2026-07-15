@@ -7,7 +7,7 @@
 
 ---
 
-## 📋 Description
+##  Description
 
 This project was carried out during a technical internship. The company was already running **GLPI 10** for IT asset and service management. The goal was to deploy a new **GLPI 11** environment using **Docker**, then migrate the existing database from version 10 to version 11 — entirely on Windows, using Docker Desktop and PowerShell/CMD, without any Linux VM.
 
@@ -15,7 +15,7 @@ This project was carried out during a technical internship. The company was alre
 
 ---
 
-## 🖥️ Architecture
+##  Architecture
 
 | Container | Image | Role | Port |
 |-----------|-------|------|------|
@@ -67,7 +67,8 @@ glpi-10-to-11-docker-migration/
 │
 ├── docker-compose.yml
 ├── .gitignore
-└── README.md
+├── README.md
+└── MIT License
 ```
 
 ---
