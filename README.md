@@ -53,7 +53,7 @@ glpi-10-to-11-docker-migration/
 └── MIT License
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Docker Desktop (Windows)
