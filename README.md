@@ -7,6 +7,19 @@
 
 ---
 
+## 📸 Screenshots
+
+<table width="100%">
+  <tr>
+    <td width="33%"><img src="./screenshots/Image1.jpg" width="100%"/></td>
+    <td width="33%"><img src="./screenshots/Image2.jpg" width="100%"/></td>
+    <td width="33%"><img src="./screenshots/Image3.jpg" width="100%"/></td>
+  </tr>
+</table>
+
+👉 **[View all screenshots](./screenshots)**
+
+---
 ##  Description
 
 This project was carried out during a technical internship. The company was already running **GLPI 10** for IT asset and service management. The goal was to deploy a new **GLPI 11** environment using **Docker**, then migrate the existing database from version 10 to version 11 — entirely on Windows, using Docker Desktop and PowerShell/CMD, without any Linux VM.
